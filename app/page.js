@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from 'next/navigation'
+import ChatSystem from "@/components/chatsytem";
 
 export default function Home() {
   const router = useRouter()
@@ -71,7 +72,7 @@ export default function Home() {
           <h2 className="text-4xl font-bold mb-8">Explore Our Features</h2>
           <div className="flex flex-row justify-evenly">
             <div>
-              <img src="https://img.freepik.com/premium-vector/doctor-vector-illustration_38694-150.jpg" alt="" className="h-[650px] w-[600px]"/>
+              <img src="https://img.freepik.com/premium-vector/doctor-vector-illustration_38694-150.jpg" alt="" className="h-[650px] w-[600px]" />
             </div>
             <div className="">
               <div className="bg-white p-5 rounded-lg shadow-md flex flex-row w-[700px]">
@@ -84,15 +85,15 @@ export default function Home() {
               <div className="bg-white p-5 rounded-lg shadow-md flex flex-row w-[700px] my-4">
                 <img src="https://png.pngtree.com/png-vector/20190507/ourmid/pngtree-vector-doctor-icon-png-image_1024938.jpg" alt="Feature 2" className="h-[160px] w-[120px]" />
                 <div className="ml-[30px] text-left">
-                <h3 className="text-2xl font-bold mb-2">AI-Powered Diagnostic Accuracy</h3>
-                <p> Utilizes cutting-edge AI algorithms to enhance diagnostic accuracy and predict patient outcomes more reliably and the AI system continuously learns and adapts from new data, improving its diagnostic capabilities over time </p>
+                  <h3 className="text-2xl font-bold mb-2">AI-Powered Diagnostic Accuracy</h3>
+                  <p> Utilizes cutting-edge AI algorithms to enhance diagnostic accuracy and predict patient outcomes more reliably and the AI system continuously learns and adapts from new data, improving its diagnostic capabilities over time </p>
                 </div>
               </div>
               <div className="bg-white p-5 rounded-lg shadow-md flex flex-row w-[700px]">
                 <img src="https://png.pngtree.com/png-vector/20190507/ourmid/pngtree-vector-doctor-icon-png-image_1024938.jpg" alt="Feature 3" className="h-[160px] w-[120px]" />
                 <div className="ml-[30px] text-left">
-                <h3 className="text-2xl font-bold mb-2">Integration of Diagnostics and Billing </h3>
-                <p> Integrates diagnostic tools with billing functions, reducing administrative overhead and improving accuracy and ensures that diagnostic results and billing information are updated in real-time, minimizing errors and streamlining workflows.</p>
+                  <h3 className="text-2xl font-bold mb-2">Integration of Diagnostics and Billing </h3>
+                  <p> Integrates diagnostic tools with billing functions, reducing administrative overhead and improving accuracy and ensures that diagnostic results and billing information are updated in real-time, minimizing errors and streamlining workflows.</p>
                 </div>
               </div>
             </div>
@@ -125,6 +126,10 @@ export default function Home() {
           <p>&copy; 2024 Health Insights. All Rights Reserved.</p>
         </div>
       </footer>
+
+      <div className="z-40">
+        <ChatSystem />
+      </div>
     </div>
   );
 }

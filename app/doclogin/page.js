@@ -4,11 +4,13 @@ import { useForm } from "react-hook-form";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useRef } from "react";
-// import { Link} from "react-router-dom";
 import Link from "next/link";
+import { useRouter } from 'next/navigation'
+
 
 
 export default function page() {
+  const router = useRouter()
 const {register, handleSubmit , setValue} = useForm();
 const ref = useRef()
 
@@ -50,7 +52,7 @@ const onSubmit = async (val) => {
           </div>
         <input {...register("password")} type="text" className="border-2 border-gray-500 rounded-xl w-full h-[40px] text-black px-5"/>
       </div>
-      <button type="submit" className="my-5 w-full h-[40px] bg-orange-600 font-bold text-white">SIGN IN</button>
+      <button type="submit" className="my-5 w-full h-[40px] bg-orange-600 font-bold text-white" onClick={() => router.push('/doctor')}>SIGN IN</button>
       <div className="w-full text-wrap text-[14px]">By continuing, you agree to HealthInSight's Conditions of Use and Privacy Notice.</div>
       <div className="flex items-center align-middle justify-between my-4">
         <hr className="bg-white w-[5.2rem] h-[2px]"/>
