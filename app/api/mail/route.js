@@ -1,10 +1,6 @@
 // pages/api/send-email.js
 import nodemailer from "nodemailer";
 
-import { connectDb } from "@/database/connect";
-import { Mail } from "@/models/mail";
-import { Html } from "next/document";
-
 export default async function handler(req, res) {
     if (req.method === "POST") {
 
@@ -36,10 +32,7 @@ export default async function handler(req, res) {
 
         try {
             await transporter.sendMail(mailOptions);
-            connectDb()
-            const mail = new Mail(req.body);
-            await mail.save();
-            res.status(200).json({ success: true, message: "Email sent successfully", mail });
+            res.status(200).json({ success: true, message: "Email sent successfully"});
         } catch (error) {
             console.error("Error sending email:", error);
             res.status(500).json({ error: "An error occurred while sending the email" });
