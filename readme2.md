@@ -8,7 +8,12 @@
 
 This project leverages the following technologies:
 
-- **[NAME](WEBSITE):** One Line on why you chose this tech and what it is used for.
+- **[python](https://www.python.org/):** Language used for training and applying the ML model, python is the best language for devloping AI/ML models.
+- **[HTML](https://html.spec.whatwg.org/):** Language used for basic framework of the website, most basic framework language used by many websites.
+- **[JavaScript](https://ecma-international.org/publications-and-standards/standards/ecma-262/):** Language used for the backend of the website, used by most of the websites for backend.
+- **[TilwindCSS](https://tailwindcss.com/):** Used for frontend of the website, allows extensive customization.
+- **[NodeJS](https://nodejs.org/en):** Used the runtime environment in next.js, it provides cross-platform applications which run easily on any web.
+- **[NextJS](https://nextjs.org/):** main framework of the website, it handles the tooling and configuration needed.
 
 ## Key Features
 
