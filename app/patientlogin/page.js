@@ -27,11 +27,9 @@ export default function page() {
         }
 
         else {
-            // let a = await fetch("/api/login", { method: "POST", body: JSON.stringify(val), headers: { 'content-type': 'application/json' } })
-            // let b = await a.json();
-            // if(b.findResult) navigate("/home",{ state: { email: b.login.email } })
-            // else{ toast('no account found', { position: "top-right", autoClose: 3000 })
+            toast('successfully logged in', { position: "top-right", autoClose: 3000 })
             ref.current.reset()
+            router.push('/patient')
         }
     }
 
@@ -40,7 +38,10 @@ export default function page() {
         <ToastContainer position="top-right" autoClose={3000} />
         <div className=" h-screen bg-[url('/images/patientlogin.jpg')] bg-cover brightness-[.6] relative"></div>
         <div className="absolute top-1 flex justify-center items-center content-between flex-col w-full ">
-            <img src="/images/logo.jpg" alt="" className="w-[350px] h-[100px] mt-8" />
+            <div className="bg-red-700 text-white font-bold italic">
+                NOTE: it is just a protype...therefore there is no need to create account....just enter anything in username and password and it will be loged in
+            </div>
+            <img src="/images/logo.jpg" alt="" className="w-[350px] h-[100px] mt-3" />
             <form className=" w-[400px] p-5 text-white rounded-xl my-5 shadow-[0px_0px_20px_5px] shadow-black backdrop-brightness-50" onSubmit={handleSubmit(onSubmit)} ref={ref} action="./api/data" method="post">
                 <div className="text-[2rem]">SIGN IN</div>
                 <div className="my-5">
@@ -54,7 +55,7 @@ export default function page() {
                     </div>
                     <input {...register("password")} type="text" className="border-2 border-gray-500 rounded-xl w-full h-[40px] text-black px-5" />
                 </div>
-                <button type="submit" className="my-5 w-full h-[40px] bg-orange-600 font-bold text-white" onClick={() => router.push('/patient')}>SIGN IN</button>
+                <button type="submit" className="my-5 w-full h-[40px] bg-orange-600 font-bold text-white">SIGN IN</button>
                 <div className="w-full text-wrap text-[14px]">By continuing, you agree to HealthInSight's Conditions of Use and Privacy Notice.</div>
                 <div className="flex items-center align-middle justify-between my-4">
                     <hr className="bg-white w-[5.2rem] h-[2px]" />
