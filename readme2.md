@@ -12,9 +12,9 @@ This project leverages the following technologies:
 
 ## Key Features
 
-- **Feature 1:** One Line description of Feature 1.
-- **Feature 2:** One Line description of Feature 2.
-- **Feature 3:** One Line description of Feature 3.
+- **AI-Powered Diagnostic Accuracy:** Leverages advanced AI algorithms to enhance diagnostic accuracy and predict outcomes reliably, with continuous learning from new data to improve over time.
+- **Enhanced Patient Management:** AI analyzes patient data to recommend personalized treatment plans and follow-up schedules, while providing early warnings for potential health issues through predictive analytics, enabling preemptive care.
+- **Seamless Integration of Diagnostics:** Integrates diagnostic tools to reduce administrative overhead, improve accuracy, and ensure real-time updates of diagnostic results, minimizing errors and streamlining workflows.
 
 ## Local Setup Instructions (Write for both windows and macos)
 
