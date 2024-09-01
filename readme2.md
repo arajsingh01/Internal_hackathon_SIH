@@ -1,8 +1,8 @@
 ## Tasks Accomplished
 
-- [x] **Task 1:** Description of Task 1 (if needed)
-- [x] **Task 2:** Description of Task 2 (if needed)
-- [x] **Task 3:** Description of Task 3 (if needed)
+- [x] **AI-Driven Diagnostics**
+- [x] **Patient Management**
+- [x] **User Experience and Training**
 
 ## Technology Stack
 
