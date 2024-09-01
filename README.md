@@ -19,9 +19,7 @@ This README provides an overview of the project, including team details, relevan
 
 ## Project Links
 
-- **Internal Presentation:** [Internal Presentation](URL TO PPT UPLOADED TO GITHUB)
-- **Final SIH Presentation:** [Final SIH Presentation](URL TO PPT UPLOADED TO GITHUB)
-- **Video Demonstration:** [Watch Video](UNLISTED YOUTUBE LINK)
-- **Live Deployment:** [View Deployment](DEPLOYED LINK IF ANY)
-- **Source Code:** [GitHub Repository](GITHUB LINK TO THE REPO)
-- **Additional Resources:** [Other Relevant Links](ANY OTHER RELEVANT LINKS)
+- **Internal Presentation:** [Internal Presentation](https://github.com/arajsingh01/SIH_2024_Internal_Round_TechGeeks/blob/main/files/INTERNAL_PPT_TechGeeks.pdf)
+- **Final SIH Presentation:** [Final SIH Presentation](https://github.com/arajsingh01/SIH_2024_Internal_Round_TechGeeks/blob/main/files/SIH_PPT_TechGeeks.pdf)
+- **Video Demonstration:** [Watch Video](https://youtu.be/qgYQwzL8QjE)
+- **Source Code:** [GitHub Repository](https://github.com/arajsingh01/SIH_2024_Internal_Round_TechGeeks)
