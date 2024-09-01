@@ -4,7 +4,7 @@ This README provides an overview of the project, including team details, relevan
 
 ## Team Details
 
-**Team Name:** TEAM_NAME_HERE
+**Team Name:** TechGeeks
 
 **Team Leader:** [@AnujAgrawal18](https://github.com/AnujAgrawal18)
 
